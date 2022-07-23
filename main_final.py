@@ -3,7 +3,7 @@ import pygame
 import time
 import random
 import mysql.connector as sql
-m=sql.connect(host="localhost",user="root",password="MosH@1211")
+m=sql.connect(host="localhost",user="",password="")
 cursor=m.cursor()
 pygame.font.init()
 width=1300
